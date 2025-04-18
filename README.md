@@ -17,9 +17,11 @@ Here are the $R²$ results from each model tested:
 - XGBoost: $89.9%$
 
 The histplot curves:
+
 ![](images/hist.png)
 
 The residuals:
-![](residuals_binned.png)
+
+![](images/residuals_binned.png)
 
 It's safe to assume the model is very linear and simple enough to the point XGBoost and Random Forest can't overperform the simpler Linear Regression model.

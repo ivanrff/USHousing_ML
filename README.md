@@ -11,4 +11,15 @@ Here are their correlations:
 
 ![](images/corr().png)
 
-By using Random Forest without hyperparameter tuning, it was possible to achieve an accuracy of $R² = ~88%$
+Here are the $R²$ results from each model tested:
+- Linear Regression: $91.7%$
+- Random Forest: $88.7%$
+- XGBoost: $89.9%$
+
+The histplot curves:
+![](images/hist.png)
+
+The residuals:
+![](residuals_binned.png)
+
+It's safe to assume the model is very linear and simple enough to the point XGBoost and Random Forest can't overperform the simpler Linear Regression model.
